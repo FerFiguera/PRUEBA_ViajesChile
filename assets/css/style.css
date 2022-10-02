@@ -11,3 +11,14 @@ body {
       display: none;
     }
   }
+
+  .imagen-card img{
+    height: 150px;
+    object-fit: cover ;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  
