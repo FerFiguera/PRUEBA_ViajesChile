@@ -21,4 +21,13 @@ body {
     margin-bottom: 1rem;
   }
 
-  
+  .footer-wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-black {
+    background-color: black;
+    opacity: 0.95;
+    color: white;
+  }

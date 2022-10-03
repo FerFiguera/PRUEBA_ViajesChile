@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="assets/css/style.css">
-   
 </head>
 
 
@@ -152,13 +151,66 @@
                 </div>
               </div>
             </div>
-          </div>
         </section>
-         
-    </main>
 
+        <section id="seccion-contacto">
+          <div class="container">
+            <div class="my-5">
+              <h4 class="text-center mb-4">CONTACTO</h4>
+              <hr class="bg-info mb-4" />
+            </div>
+            <form>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" required minlength="10" maxlength="50">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" required minlength="10" maxlength="50">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+              </div>
+              <div class="mb-4">
+                <button type="submit" class="btn btn-info text-light">Enviar</button>
+              </div> 
+            </form>
+        </section>
 
-    <footer></footer>
+        <footer class="container-fluid text-center bg-info p-3 ">
+          <div class="footer-wrap">
+            <div>
+              <p class="fs-3">Viajes Chile</p>
+            </div>
+            <div>
+              <i
+                data-bs-toggle="tooltip"
+                data-placement="top"
+                title="ViajesChile"
+                class="fa-brands fa-github fa-2x mx-2"
+              ></i>
+              <i
+                data-bs-toggle="tooltip"
+                data-placement="top"
+                title="@viajeschile"
+                class="fa-brands fa-linkedin fa-2x mx-2"
+              ></i>
+              <i
+                data-bs-toggle="tooltip"
+                data-placement="top"
+                title="Viajes Chile"
+                class="fa-brands fa-facebook fa-2x mx-2"
+              ></i>
+              <i
+                data-bs-toggle="tooltip"
+                data-placement="top"
+                title="@viajeschile"
+                class="fa-brands fa-twitter fa-2x mx-2"
+              ></i>
+            </div>
+          </div>
+        </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
